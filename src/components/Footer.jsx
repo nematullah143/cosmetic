@@ -36,7 +36,7 @@ function Footer() {
                     </div>
                 </div>
                 <div class="text-center mt-8">
-                    <p class="text-gray-400">© 2025 logo Beauty. All Rights Reserved..</p>
+                    <p class="text-gray-400">© 2025 logo Beauty. All Rights Reserved.</p>
                 </div>
             </div>
         </footer>
