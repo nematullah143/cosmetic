@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 const products = [
   {
@@ -26,7 +26,7 @@ const products = [
     image: "https://marscosmetics.in/cdn/shop/products/01KATHAKKWEEN-02SwatchW.jpg?v=1667821827&width=2000"
   },
   {
-    id: 1,
+    id: 4,
     name: "Lipstick",
     description: "A long-lasting, vibrant lipstick shade.",
     price: 1699,
@@ -34,7 +34,7 @@ const products = [
     image: "https://marscosmetics.in/cdn/shop/files/WEBSITEcopy_76e66aad-2caa-4305-a34b-8466f60e1277.jpg?v=1704279099&width=2000"
   },
   {
-    id: 2,
+    id: 5,
     name: "Foundation",
     description: "Smooth and flawless foundation for all skin types.",
     price: 2499,
@@ -42,7 +42,7 @@ const products = [
     image: "https://marscosmetics.in/cdn/shop/products/01KATHAKKWEEN-02SwatchW.jpg?v=1667821827&width=2000"
   },
   {
-    id: 3,
+    id: 6,
     name: "Eyeliner",
     description: "Waterproof and long-lasting black eyeliner.",
     price: 999,
@@ -50,7 +50,7 @@ const products = [
     image: "https://marscosmetics.in/cdn/shop/products/01KATHAKKWEEN-02SwatchW.jpg?v=1667821827&width=2000"
   },
   {
-    id: 1,
+    id: 7,
     name: "Lipstick",
     description: "A long-lasting, vibrant lipstick shade.",
     price: 1699,
@@ -58,7 +58,7 @@ const products = [
     image: "https://marscosmetics.in/cdn/shop/files/WEBSITEcopy_76e66aad-2caa-4305-a34b-8466f60e1277.jpg?v=1704279099&width=2000"
   },
   {
-    id: 2,
+    id: 8,
     name: "Foundation",
     description: "Smooth and flawless foundation for all skin types.",
     price: 2499,
@@ -66,7 +66,7 @@ const products = [
     image: "https://marscosmetics.in/cdn/shop/products/01KATHAKKWEEN-02SwatchW.jpg?v=1667821827&width=2000"
   },
   {
-    id: 3,
+    id: 9,
     name: "Eyeliner",
     description: "Waterproof and long-lasting black eyeliner.",
     price: 999,
@@ -77,7 +77,7 @@ const products = [
 
 const ShoppingCard = () => {
   return (
-    <div className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500flex items-center justify-center min-h-screen p-4">
+    <div className="navcolor items-center justify-center min-h-screen p-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         {products.slice(0, 8).map((product) => (
           <div key={product.id} className="max-w-sm bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105">
