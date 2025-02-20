@@ -9,11 +9,10 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* <Hero /> */}
-      <CarouselDefault />
+      <Hero />
+      {/* <CarouselDefault /> */}
       <ShoppingCarousel/>
       <ShoppingCard />
-      <Hero />
       <Footer />
     </>
   )
