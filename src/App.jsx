@@ -3,12 +3,17 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
 import CarouselDefault from './components/Carousel';
+import ShoppingCard from './components/ProductCard';
+import ShoppingCarousel from './components/TopSelling';
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
+      {/* <Hero /> */}
       <CarouselDefault />
+      <ShoppingCarousel/>
+      <ShoppingCard />
+      <Hero />
       <Footer />
     </>
   )
